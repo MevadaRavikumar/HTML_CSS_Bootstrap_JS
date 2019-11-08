@@ -145,6 +145,36 @@ body{
 	margin-top: 35px;
 }
 
+/***************************************
+*Menu Cat
+***************************************/
+.categories-tile{
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 30px;
+}
+.categories-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.categories-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title{
+	margin-bottom: 30px;
+}
+
 
 /***********large device**********/
 @media (min-width: 1200px){
